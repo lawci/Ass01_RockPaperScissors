@@ -36,26 +36,26 @@ public class RockPaperScissors {
             // result
             String result = "";
             if (moveA.equalsIgnoreCase("R") && moveB.equalsIgnoreCase("R")) {
-                result = "Rock vs Rock - It’s a Tie!";
+                result = "Rock vs Rock, it’s a Tie!";
             } else if (moveA.equalsIgnoreCase("P") && moveB.equalsIgnoreCase("P")) {
-                result = "Paper vs Paper - It’s a Tie!";
+                result = "Paper vs Paper, it’s a Tie!";
             } else if (moveA.equalsIgnoreCase("S") && moveB.equalsIgnoreCase("S")) {
-                result = "Scissors vs Scissors - It’s a Tie!";
+                result = "Scissors vs Scissors, it’s a Tie!";
 
             } else if (moveA.equalsIgnoreCase("R") && moveB.equalsIgnoreCase("S")) {
-                result = "Rock breaks Scissors - Player A wins!";
+                result = "Rock breaks Scissors, player A wins!";
             } else if (moveA.equalsIgnoreCase("P") && moveB.equalsIgnoreCase("R")) {
-                result = "Paper covers Rock - Player A wins!";
+                result = "Paper covers Rock, player A wins!";
             } else if (moveA.equalsIgnoreCase("S") && moveB.equalsIgnoreCase("P")) {
-                result = "Scissors cuts Paper - Player A wins!";
+                result = "Scissors cuts Paper, player A wins!";
             } else {
                 // All other cases mean Player B wins
                 if (moveB.equalsIgnoreCase("R") && moveA.equalsIgnoreCase("S")) {
-                    result = "Rock breaks Scissors - Player B wins!";
+                    result = "Rock breaks Scissors, player B wins!";
                 } else if (moveB.equalsIgnoreCase("P") && moveA.equalsIgnoreCase("R")) {
-                    result = "Paper covers Rock - Player B wins!";
+                    result = "Paper covers Rock, player B wins!";
                 } else if (moveB.equalsIgnoreCase("S") && moveA.equalsIgnoreCase("P")) {
-                    result = "Scissors cuts Paper - Player B wins!";
+                    result = "Scissors cuts Paper, player B wins!";
                 }
             }
 
