@@ -33,7 +33,7 @@ public class RockPaperScissors {
                 }
             } while (!validinputB);
 
-            // result
+            // game result
             String result = "";
             if (moveA.equalsIgnoreCase("R") && moveB.equalsIgnoreCase("R")) {
                 result = "Rock vs Rock, it’s a Tie!";
